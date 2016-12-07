@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< Updated upstream
  * Template Name: PRESENTATION
  */
 
@@ -18,31 +19,79 @@ get_header();
 <body class="bodycab">
 
 <div class="container-fluid header">
-	<div class="col-md-12 header">
-		<img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/background.jpg" alt="">
+    <h1>Présentation</h1>
+	<div class="col-lg-12 header">
+		<img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/wordpress_scrum/img/background.jpg" alt="fond_img">
 	</div>
 </div>
 
 <div class="container con1">
-	<div class="col-lg-8 col-md-12">
-		<h2>A more intense result</h2>
-		<p>Shortly after the world premiere of the AMG GT R, the sports car and performance brand from Affalterbach is presenting two exciting roadster variants of the two-seater sports car. Alongside the AMG GT Roadster, the AMG GT C Roadster enhances the portfolio with a completely new model variant. “With our two Roadster models, we are strategically expanding the AMG GT family by two exciting variants. With the AMG GT C Roadster, we are also introducing a new model variant to which we have transferred main performance-related components from our top sports car, the AMG GT R. The result: a highly dynamic driving experience in a very exclusive ambience, coupled with that pure roadster feeling,” says Tobias Moers, Chairman of Mercedes-AMG GmbH.</p>
-	</div>
-	<div class="col-lg-4 col-md-12">
-		<img class="img-responsive img-ss-header" src="img/cabh1.jpg" alt="">
+	<div class="col-lg-12 col-md-12">
+		<p>Shortly after the world premiere of the AMG GT R, the sports car and premiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforperformance brand from Affalterbach is presenting two exciting roadster variants of the two-seater sports car. Alongside the AMG GT Roadster, the AMG GT C Roadster enhances the portfolio with a completely new model variant. “With our two Roadster models, we are strategically expanding the AMG GT family by two exciting variants. With the AMG GT C Roadster, we are also introducing a new model variant to which we have transferred main performance-related components from our top sports car, the AMG GT R. The result: a highly dynamic driving experience in a very exclusive ambience, coupled with that pure roadster feeling,” says Tobias Moers, Chairman of Mercedes-AMG GmbH.</p>
 	</div>
 </div>
-
-<div class="container con2">
-	<div class="col-lg-4 col-md-12">
-		<img class="img-responsive img-ss-header" src="img/cabh2.jpg" alt="">
-	</div>
-	<div class="col-lg-8 col-md-12">
-		<h2>New stage: Peak Power</h2>
-		<p>With the AMG GT C Roadster, Mercedes-AMG is introducing a further output level of the 4.0-litre V8 biturbo, thereby underlining the exclusive character of the new model. At 410 kW (557 hp), the peak output is 35 kW (47 hp) above that of the AMG GT S and 20 kW (28 hp) below the Mercedes-AMG GT R. The maximum torque of 680 newton metres is available from 1900 to 5750 rpm. A sprint from zero to 100 km/h is absolved in 3.7 seconds, and this fulminating acceleration only ends at the top speed of 316 km/h.</p>
-	</div>
+<br>
+<!-- carousel 1 -->
+        <div class="row carousel-holder">
+            <div class="col-md-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+<br>
+<!-- carousel 2 -->
+        <div class="row carousel-commentateur">
+            <div class="col-md-12">
+                <div id="carousel-example-generic" class="carousel-commentateur" data-ride="carousel">
+                    <ol class="carousel-commentateur">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-commentateur">
+                        <div class="item active">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
 
 <div class="container-cab">
 <div class="col-md-6 coll">
@@ -151,3 +200,14 @@ get_header();
 		</div>
 	</div>
 </footer>
+=======
+ * The template used for displaying page content in page.php
+ *
+ * @package dazzling
+ */
+?>
+
+<?php
+    include header.php;
+?>
+>>>>>>> Stashed changes
