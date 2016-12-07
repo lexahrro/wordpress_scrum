@@ -65,12 +65,12 @@ get_header();
         <div class="row carousel-commentateur">
             <div class="col-md-12">
                 <div id="carousel-example-generic" class="carousel-commentateur" data-ride="carousel">
-                    <ol class="carousel-commentateur">
+                    <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-commentateur">
+                    <div class="carousel-inner">
                         <div class="item active">
                             <img class="slide-image" src="http://placehold.it/800x300" alt="">
                         </div>
@@ -93,10 +93,14 @@ get_header();
     </div>
 </div>
 
+<div class="row">
+    <div class="mvp">
+        <img class="img-responsive" src="img/cab1.jpg" alt="">
+    </div>
+</div>
 <div class="container-cab">
 <div class="col-md-6 coll">
 	<div class="hovereffect1">
-		<img class="img-responsive" src="img/cab1.jpg" alt="">
 		<div class="overlay1">
 		</div>
 	</div>
