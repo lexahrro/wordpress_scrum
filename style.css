@@ -1097,3 +1097,19 @@ p.logged-in-as {
 .full-width #primary{
     width: 100%;
 }
+
+
+.container-stream{
+  width: 100%;
+  background: url(img/header-screen.jpg) no-repeat center fixed;
+  margin:0;
+  padding:0;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+}
+
+#content{
+  margin: 0;
+  width: 100%;
+}
