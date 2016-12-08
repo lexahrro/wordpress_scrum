@@ -11,13 +11,32 @@ include 'conf.php';
 
 get_header(); ?>
 
-<form action="" method="post">
-    Pseudo: <input type="text" name="pseudo" value="" />
-
-    Mot de passe: <input type="password" name="mot_de_passe" value="" />
-
-    <input type="submit" name="connexion" value="Connexion" />
-</form>
+<section class="section-login">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="caption-login">Connexion</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-login">
+        <form action="" method="post">
+            <div class="form-group center-block">
+                <label for="pseudo">Pseudo:</label>
+                <br>
+                <input class="input-login" type="text" name="pseudo" value="" />
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe:</label>
+                <br>
+                <input class="input-login" type="password" name="mot_de_passe" value="" />
+            </div>
+            <br>
+                <button type="submit" name="connexion" value="Connexion" class="btn btn-default center-block">Submit</button>
+        </form>
+            </div>
+        </div>
+    </div>
 <?php
 
 
@@ -59,6 +78,4 @@ if(isset($_POST['connexion'])) {
     }
 }
 ?>
-
-
-<?php get_footer(); ?>
+</section>
