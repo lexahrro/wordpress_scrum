@@ -42,7 +42,7 @@ get_header();
                     </ol>
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            <img class="slide-image" src="Starcraft_2_Shoutcasters_-_Pomf_et_Thud_-_P1020005_-_Japan_Expo_Sud_2011_-_26_février.jpg" alt="starcraft">
                         </div>
                         <div class="item">
                             <img class="slide-image" src="http://placehold.it/800x300" alt="">
@@ -90,7 +90,43 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+
+<div id="mvp">
+	<div class="container" >
+		<div class="row">
+			<h2>MVP du mois</h2>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6" >
+				<div class="img_client">
+					<img src="#">
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="row">

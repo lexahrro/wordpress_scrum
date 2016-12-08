@@ -81,6 +81,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 h1,
 .h1 {
   font-size: 32px;
+  text-align: center;
+}
+
+.h2,
+.h1{
+  font-size: 32px;
+  text-align: center;
 }
 
 h2,
@@ -1367,8 +1374,6 @@ p{
     bottom: 20px;
   }
 }
-<<<<<<< Updated upstream
-
 /* CAROUSEL 1*/
 
 .carousel {
