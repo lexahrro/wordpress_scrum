@@ -18,13 +18,14 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="site-info container">
-				<?php if( of_get_option('footer_social') ) dazzling_social_icons(); ?>
-				<nav role="navigation" class="col-md-6">
-					<?php dazzling_footer_links(); ?>
-				</nav>
-				<div class="copyright col-md-6">
-					<?php echo of_get_option( 'custom_footer_text', 'dazzling' ); ?>
-					<?php dazzling_footer_info(); ?>
+				<div class="social col-md-6 col-sm-6 col-xs-6">
+					<a href="#"><img src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/fb.png" alt="fond_img"></a>
+					<a href="#"><img src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/insta.png" alt="fond_img">
+					<a href="#"><img src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/twitter.png" alt="fond_img"></a>
+					<a href="#"><img src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/yt.png" alt="fond_img"></a>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<h4 class="pull-right">IIM e-Sport / Tous droits réservés</h4>
 				</div>
 			</div><!-- .site-info -->
 			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->

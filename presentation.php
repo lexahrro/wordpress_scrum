@@ -25,7 +25,7 @@ get_header();
 	</div>
 </div>
 
-<div class="container con1">
+<div class="container-pres con1">
 	<div class="col-lg-12 col-md-12">
 		<p>Shortly after the world premiere of the AMG GT R, the sports car and premiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforperformance brand from Affalterbach is presenting two exciting roadster variants of the two-seater sports car. Alongside the AMG GT Roadster, the AMG GT C Roadster enhances the portfolio with a completely new model variant. “With our two Roadster models, we are strategically expanding the AMG GT family by two exciting variants. With the AMG GT C Roadster, we are also introducing a new model variant to which we have transferred main performance-related components from our top sports car, the AMG GT R. The result: a highly dynamic driving experience in a very exclusive ambience, coupled with that pure roadster feeling,” says Tobias Moers, Chairman of Mercedes-AMG GmbH.</p>
 	</div>

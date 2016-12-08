@@ -49,7 +49,7 @@ if(!empty($_POST['connexion'])){
     if ( empty($_POST['email']) ) {
         $aError[]			=		'Veuillez saisir votre adresse email';
     } elseif (!(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))) {
-        $aError[]			=		'Veuillez vérifier la synthaxe de votre adresse email';
+        $aError[]			=		'Veuillez vérifier la syntaxe de votre adresse email';
     }
     if ( empty($_POST['mdp']) ) {
         $aError[]			=		'Veuillez saisir un mot de passe';

@@ -8,10 +8,9 @@ get_header();
 
 ?>
 <body>
-<body>
 <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
 
-
+<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
 <script>
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
@@ -58,19 +57,19 @@ get_header();
 
 
 <section id="section1">
-    <div class="container-margin container-stream">
+    <div class="container">
         <div class="row">
             <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/streams.png" alt="fond_img">
         </div>
-        <div class="row row-button">
-            <div class="col-md-12">
-                <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+        <div class="row row-stream">
+            <div class="col-md-6">
+                <h2 class="text-center caption-stream">Notre chaine Twitch</h2>
                 <div id="twitch"></div>
 
                 <script type="text/javascript">
                     var options = {
-                        width: 854,
-                        height: 480,
+                        height: '480',
+                        width: '854',
                         channel: "{monstercat}",
                         muted: true,
 
@@ -80,22 +79,14 @@ get_header();
                     player.setVolume(0.5);
                 </script>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-6">
+                <h2 class="text-center caption-stream">Notre chaine Youtube</h2>
                 <div id="player"></div>
             </div>
         </div>
     </div>
-    <?php
 
-    $link = file_get_contents("https://api.twitch.tv/kraken/streams/janmyy");
-    $streams = json_decode($link);
-
-    if ($streams == null){
-        echo "Live Offline";
-    }
-    else{
-        echo $streams -> stream -> game;
-    }
-    ?>
 </section>
 </body>
+
+<?php get_footer(); ?>

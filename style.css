@@ -40,6 +40,11 @@ Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatti
 
 /* =Global
 ----------------------------------------------- */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 body {
   color: #6B6B6B;
   word-wrap: break-word;
@@ -69,7 +74,8 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #1FA67A;
+  color: #ee7e02;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1,
@@ -147,7 +153,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #878787;
   border-radius: 3px;
 }
 input[type="text"]:focus,
@@ -1115,7 +1121,7 @@ p.logged-in-as {
 }
 
 /* PAGE PRESENTATION*/
-.container {
+.container-pres {
   width: 100%;
   padding: 0;
 }
@@ -1594,21 +1600,15 @@ p{
   }
 }
 
-
-.iframe-responsive-wrapper        {
-  position: relative;
+.caption-stream{
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
-.iframe-responsive-wrapper .iframe-ratio {
-  display: block;
-  width: 100%;
-  height: auto;
+.row-stream{
+  margin-bottom: 50px;
 }
 
-.iframe-responsive-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.social{
+  margin-top: 10px;
 }
