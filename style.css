@@ -1098,18 +1098,16 @@ p.logged-in-as {
     width: 100%;
 }
 
-
-
-.container-stream {
+#twitch{
   width: 100%;
-  margin: 0;
-  padding: 0;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-  height: 600px;
-
+  height: 100%;
 }
 
+.container-stream {
+  width: 1170px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
 #content{
   margin: 0;
@@ -1595,5 +1593,22 @@ p{
     bottom: 20px;
   }
 }
-=======
->>>>>>> Stashed changes
+
+
+.iframe-responsive-wrapper        {
+  position: relative;
+}
+
+.iframe-responsive-wrapper .iframe-ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.iframe-responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

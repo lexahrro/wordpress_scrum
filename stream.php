@@ -58,24 +58,29 @@ get_header();
 
 
 <section id="section1">
-    <div class="container-fluid container-stream">
+    <div class="container-margin container-stream">
+        <div class="row">
+            <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/streams.png" alt="fond_img">
+        </div>
         <div class="row row-button">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
-                <div id="{PLAYER_DIV_ID}"></div>
+                <div id="twitch"></div>
+
                 <script type="text/javascript">
                     var options = {
                         width: 854,
                         height: 480,
                         channel: "{monstercat}",
+                        muted: true,
 
                         //video: "{VIDEO_ID}"
                     };
-                    var player = new Twitch.Player("{PLAYER_DIV_ID}", options);
+                    var player = new Twitch.Player("twitch", options);
                     player.setVolume(0.5);
                 </script>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div id="player"></div>
             </div>
         </div>
