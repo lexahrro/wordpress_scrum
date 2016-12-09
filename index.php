@@ -11,12 +11,14 @@
  * @package dazzling
  */
 
-get_header(); ?>	
-    <?php masterslider("ms-1"); ?>
-        <div id="primary" class="content-area col-sm-12 col-md-8">
+get_header(); ?>
+        <div id="primary" class="content-area col-sm-12 col-md-12">
+                <?php masterslider(3); ?>
                 <main id="main" class="site-main" role="main">
+                    <div class="pres-index">
                     <h1>Bienvenue au coeur de l'E-sport</h1>
                     <p>Bienvenue sur le site de l’IIM consacrée intégralement à l’e-sport sur League of Legends. L’IIM est une des premières écoles à créer un département dédié à l’e-sport dans ses locaux afin de développer et augmenter la notoriété de l’e-sport « universitaire ». Les joueurs sélectionnés pour représenter l’école ont été choisis à la suite de différente épreuves et entretiens, pour qu’ils répondent au mieux l’attente des coachs et de l’école.</p>
+                     </div>
                     <h1>Les différents événements à venir:</h1>
                     <div class="col-md-6 col-xs-12 tournois">
                         <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
@@ -63,5 +65,4 @@ get_header(); ?>
                 </main><!-- #main -->
         </div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

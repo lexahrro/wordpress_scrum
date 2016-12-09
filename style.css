@@ -53,7 +53,7 @@ body {
 }
 
 a {
-  color: #1FA67A;
+  color: #7b7876;
   text-decoration: none;
   -webkit-transition: all 0.2s;
      -moz-transition: all 0.2s;
@@ -1639,4 +1639,13 @@ p{
 .caption-login{
   text-align: center;
   text-transform: uppercase;
+}
+
+
+.pres-index h1{
+  margin-bottom: 30px;
+}
+
+.pres-index p {
+
 }
