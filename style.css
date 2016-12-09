@@ -40,6 +40,43 @@ Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatti
 
 /* =Global
 ----------------------------------------------- */
+}
+
+/* navbar */
+
+#menu-item-15{
+ float:right; 
+}
+
+#menu-item-22{
+ float:right; 
+}
+
+#menu-item-14{
+ float:right; 
+}
+
+
+
+
+#menu-menu1{
+  float:none;
+}
+#logo {
+  position:absolute;
+  margin-left:500px;
+}
+
+html {margin-top:0px !important;}
+
+.navbar.navbar-default {
+  background-color: #fff;
+  font-weight: 200;
+  margin-bottom: 0;
+  margin-top: -2px;
+  border-bottom: 1px solid #eee;
+}
+
 
 
 
@@ -56,9 +93,9 @@ a {
   color: #1FA67A;
   text-decoration: none;
   -webkit-transition: all 0.2s;
-     -moz-transition: all 0.2s;
-       -o-transition: all 0.2s;
-          transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 a:hover,
@@ -129,11 +166,11 @@ textarea {
   *vertical-align: middle; /* Improves appearance and consistency in all browsers */
 }
 select {
-    width: 250px;
-    border: 1px solid #DCE4EC;
-    background-color: #FFF;
-    height: 30px;
-    padding: 5px;
+  width: 250px;
+  border: 1px solid #DCE4EC;
+  background-color: #FFF;
+  height: 30px;
+  padding: 5px;
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -351,9 +388,9 @@ hr.section-divider {
   border: 1px solid #E8E8E8;
   color: #1FA67A;
   -webkit-transition: all 0.2s;
-     -moz-transition: all 0.2s;
-       -o-transition: all 0.2s;
-          transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 .page-links a:hover span {
   background-color: #1FA67A;
@@ -442,10 +479,10 @@ li.recentcomments {
   padding: 10px 0;
 }
 .widget ul li {
-    list-style: none;
+  list-style: none;
 }
 .widget ul {
-    padding: 10px 10px;
+  padding: 10px 10px;
 }
 .widget-title {
   border-bottom: 1px solid #eee;
@@ -536,7 +573,7 @@ li.recentcomments {
   border-color: rgba(238, 126, 2, 0.51);
 }
 .btn.btn-default {
-    color: #FFF;
+  color: #FFF;
 }
 /* =Infinite Scroll
 ----------------------------------------------- */
@@ -562,16 +599,16 @@ li.recentcomments {
   border: 1px solid #E8E8E8;
   color: #1FA67A;
   -webkit-transition: all 0.2s;
-     -moz-transition: all 0.2s;
-       -o-transition: all 0.2s;
-          transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #infinite-handle span:hover {
   background-color: #1FA67A;
   color: #fff;
 }
 .woocommerce #infinite-handle {
-    display: none;
+  display: none;
 }
 .woocommerce div.product form.cart .variations label {
   color: #6B6B6B;
@@ -887,7 +924,7 @@ p.logged-in-as {
   font-size: 12px;
 }
 .footer-nav.nav > li > a:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 .scroll-to-top {
   background: #3B3B3B;
@@ -903,9 +940,9 @@ p.logged-in-as {
   padding: 2px 10px;
   border-radius: 4px;
   -webkit-transition: background-color 0.1s linear;
-     -moz-transition: background-color 0.1s linear;
-       -o-transition: background-color 0.1s linear;
-          transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
 }
 .scroll-to-top:hover {
   background: #1FA67A;
@@ -923,7 +960,7 @@ p.logged-in-as {
     float: none !important;
   }
   .site-info, .copyright {
-      text-align: center;
+    text-align: center;
   }
   .footer-nav.nav, .copyright {
     float: none;
@@ -944,17 +981,17 @@ p.logged-in-as {
 ----------------------------------------------- */
 
 .top-bar {
-    border-bottom-color: #E8E8E8;
+  border-bottom-color: #E8E8E8;
 }
 #social a {
-    font-size: 32px;
-    margin: 6px;
-    color: #E8E8E8;
+  font-size: 32px;
+  margin: 6px;
+  color: #E8E8E8;
 }
 #social {
-    top: 0;
-    position: relative;
-    text-align: center;
+  top: 0;
+  position: relative;
+  text-align: center;
 }
 #social ul li {
   list-style: none;
@@ -973,78 +1010,78 @@ p.logged-in-as {
 }
 #social li,
 #social ul {
-    border: 0!important;
-    list-style: none;
-    padding-left: 0
+  border: 0!important;
+  list-style: none;
+  padding-left: 0
 }
 #social li a[href*="twitter.com"] .fa:before,
 .fa-twitter:before {
-    content: "\f099"
+  content: "\f099"
 }
 #social li a[href*="facebook.com"] .fa:before,
 .fa-facebook-f:before,
 .fa-facebook:before {
-    content: "\f09a"
+  content: "\f09a"
 }
 #social li a[href*="github.com"] .fa:before,
 .fa-github:before {
-    content: "\f09b"
+  content: "\f09b"
 }
 #social li a[href*="/feed"] .fa:before,
 .fa-rss:before {
-    content: "\f09e"
+  content: "\f09e"
 }
 #social li a[href*="pinterest.com"] .fa:before,
 .fa-pinterest:before {
-    content: "\f0d2"
+  content: "\f0d2"
 }
 #social li a[href*="plus.google.com"] .fa:before,
 .fa-google-plus:before {
-    content: "\f0d5"
+  content: "\f0d5"
 }
 #social li a[href*="linkedin.com"] .fa:before,
 .fa-linkedin:before {
-    content: "\f0e1"
+  content: "\f0e1"
 }
 #social li a[href*="youtube.com"] .fa:before,
 .fa-youtube:before {
-    content: "\f167"
+  content: "\f167"
 }
 #social li a[href*="instagram.com"] .fa:before,
 .fa-instagram:before {
-    content: "\f16d"
+  content: "\f16d"
 }
 #social li a[href*="flickr.com"] .fa:before,
 .fa-flickr:before {
-    content: "\f16e"
+  content: "\f16e"
 }
 #social li a[href*="tumblr.com"] .fa:before,
 .fa-tumblr:before {
-    content: "\f173"
+  content: "\f173"
 }
 #social li a[href*="dribbble.com"] .fa:before,
 .fa-dribbble:before {
-    content: "\f17d"
+  content: "\f17d"
 }
 #social li a[href*="skype.com"] .fa:before,
 .fa-skype:before {
-    content: "\f17e"
+  content: "\f17e"
 }
 #social li a[href*="foursquare.com"] .fa:before,
 .fa-foursquare:before {
-    content: "\f180"
+  content: "\f180"
 }
 #social li a[href*="vimeo.com"] .fa:before,
 .fa-vimeo-square:before {
-    content: "\f194"
+  content: "\f194"
 }
 #social li a[href*="spotify.com"] .fa:before,
 .fa-spotify:before {
-    content: "\f1bc"
+  content: "\f1bc"
 }
 #social li a[href*="soundcloud.com"] .fa:before,
 .fa-soundcloud:before {
-    content: "\f1be"
+  content: "\f1be"
 }
 
 @media (max-width: 992px) {
@@ -1087,28 +1124,28 @@ p.logged-in-as {
   color: #fff;
 }
 .cfa-button:hover {
-    background-color: #fff;
-    color: #1FA67A;
+  background-color: #fff;
+  color: #1FA67A;
 }
 .cfa-button:hover a {
-    color: #1FA67A;
+  color: #1FA67A;
 }
 /* Layout */
 .side-pull-left #primary{
-    float: left;
+  float: left;
 }
 .side-pull-right #primary{
-    float: right;
+  float: right;
 }
 .no-sidebar #secondary, .full-width #secondary{
-    display: none;
+  display: none;
 }
 .no-sidebar #primary{
-    float: none;
-    margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 .full-width #primary{
-    width: 100%;
+  width: 100%;
 }
 
 #twitch{
