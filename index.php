@@ -13,7 +13,7 @@
 
 get_header(); ?>
         <div id="primary" class="content-area col-sm-12 col-md-12">
-                <?php masterslider(3); ?>
+            <?php masterslider(3); ?>
                 <main id="main" class="site-main" role="main">
                     <div class="pres-index">
                     <h1>Bienvenue au coeur de l'E-sport</h1>
@@ -60,7 +60,19 @@ get_header(); ?>
 
                     <?php endif; ?>  
                 </div>
-                
+                <div class="col-md-12 col-xs-12">
+                    <h1>Nos Sponsors et Partenaires</h1>
+                    <div class="container">
+                    
+                    <div class="row" style="display: inline-block;">
+                        <a href="#" style="display: inline-block;"><img class="img-responsive" width="150" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/milenium.png"></a>
+                        <a href="#" style="display: inline-block;"><img class="img-responsive" width="150" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/razer.png"></a>
+                        <a href="#" style="display: inline-block;"><img class="img-responsive" width="150" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/redbull.png"></a>
+                        <a href="#" style="display: inline-block;"><img class="img-responsive" width="150" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/steel.png"></a>
+                        <a href="#" style="display: inline-block;"><img class="img-responsive" width="150" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/twitch.png"></a>
+                    </div>
+                    </div>
+                </div>
 
                 </main><!-- #main -->
         </div><!-- #primary -->
