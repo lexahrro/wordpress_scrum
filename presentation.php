@@ -30,101 +30,24 @@ get_header();
 		<p>Shortly after the world premiere of the AMG GT R, the sports car and premiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforpremiere of the AMG GT R, the sports car and perforperformance brand from Affalterbach is presenting two exciting roadster variants of the two-seater sports car. Alongside the AMG GT Roadster, the AMG GT C Roadster enhances the portfolio with a completely new model variant. “With our two Roadster models, we are strategically expanding the AMG GT family by two exciting variants. With the AMG GT C Roadster, we are also introducing a new model variant to which we have transferred main performance-related components from our top sports car, the AMG GT R. The result: a highly dynamic driving experience in a very exclusive ambience, coupled with that pure roadster feeling,” says Tobias Moers, Chairman of Mercedes-AMG GmbH.</p>
 	</div>
 </div>
-<br>
+
 <!-- carousel 1 -->
-        <div class="row carousel-holder">
-            <div class="col-md-12">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="slide-image" src="Starcraft_2_Shoutcasters_-_Pomf_et_Thud_-_P1020005_-_Japan_Expo_Sud_2011_-_26_février.jpg" alt="starcraft">
-                        </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
+<div>
+	<h2>Joueurs</h2>
+	<?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
+</div>
+
+<div>
+	<h2>Commentateurs</h2>
+	<?php echo do_shortcode('[wonderplugin_carousel id="2"]'); ?>
+</div>
 <br>
-<!-- carousel 2 -->
-        <div class="row carousel-commentateur">
-            <div class="col-md-12">
-                <div id="carousel-example-generic" class="carousel-commentateur" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
 
 <div id="mvp">
 	<div class="container" >
 		<div class="row">
 			<h2>MVP du mois</h2>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6" >
-				<div class="img_client">
-					<img src="#">
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </div>
