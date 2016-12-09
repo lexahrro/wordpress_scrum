@@ -12,32 +12,53 @@
  */
 
 get_header(); ?>	
-
+    <?php masterslider("ms-1"); ?>
         <div id="primary" class="content-area col-sm-12 col-md-8">
                 <main id="main" class="site-main" role="main">
+                    <h1>Bienvenue au coeur de l'E-sport</h1>
+                    <p>Bienvenue sur le site de l’IIM consacrée intégralement à l’e-sport sur League of Legends. L’IIM est une des premières écoles à créer un département dédié à l’e-sport dans ses locaux afin de développer et augmenter la notoriété de l’e-sport « universitaire ». Les joueurs sélectionnés pour représenter l’école ont été choisis à la suite de différente épreuves et entretiens, pour qu’ils répondent au mieux l’attente des coachs et de l’école.</p>
+                    <h1>Les différents événements à venir:</h1>
+                    <div class="col-md-6 col-xs-12 tournois">
+                        <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
+                        <h2>Tournoi de qualification pour le tournoi ESL 2017.</h2>
+                    </div>
+                    <div class="col-md-6 col-xs-12 photo">
+                        <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
+                        <h2>Shooting photos de l’equipe et des équipements informatiques.</h2>
+                    </div>
+                    <div class="col-md-6 col-xs-12 interview">
+                        <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
+                        <h2>Interview à venir sur le twitch de millenium et sur la TF1.</h2>
+                    </div>
+                    <div class="col-md-6 col-xs-12 championnat">
+                        <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
+                        <h2>Tournoi qualificatif pour les championnats du monde de 2017.</h2>
+                    </div>
+                <div class="col-md-12">
+                  <?php if ( have_posts() ) : ?>
 
-                <?php if ( have_posts() ) : ?>
+                            <?php /* Start the Loop */ ?>
+                            <?php while ( have_posts() ) : the_post(); ?>
 
-                        <?php /* Start the Loop */ ?>
-                        <?php while ( have_posts() ) : the_post(); ?>
+                                    <?php
+                                            /* Include the Post-Format-specific template for the content.
+                                             * If you want to override this in a child theme, then include a file
+                                             * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                                             */
+                                            get_template_part( 'content', get_post_format() );
+                                    ?>
 
-                                <?php
-                                        /* Include the Post-Format-specific template for the content.
-                                         * If you want to override this in a child theme, then include a file
-                                         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                                         */
-                                        get_template_part( 'content', get_post_format() );
-                                ?>
+                            <?php endwhile; ?>
 
-                        <?php endwhile; ?>
+                            <?php dazzling_paging_nav(); ?>
 
-                        <?php dazzling_paging_nav(); ?>
+                    <?php else : ?>
 
-                <?php else : ?>
+                            <?php get_template_part( 'content', 'none' ); ?>
 
-                        <?php get_template_part( 'content', 'none' ); ?>
-
-                <?php endif; ?>
+                    <?php endif; ?>  
+                </div>
+                
 
                 </main><!-- #main -->
         </div><!-- #primary -->
