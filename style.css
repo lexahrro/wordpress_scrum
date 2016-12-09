@@ -40,7 +40,6 @@ Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatti
 
 /* =Global
 ----------------------------------------------- */
-}
 
 /* navbar */
 
@@ -647,7 +646,7 @@ li.recentcomments {
 .site-main [class*="navigation"] a:hover,
 .more-link:hover {
   color: #fff;
-  background: #1FA67A;
+  background: rgba(238, 126, 2, 0.37);
   text-decoration: none;
 }
 .more-link {
@@ -677,7 +676,7 @@ li.recentcomments {
   line-height: 30px;
 }
 .navbar > .container .navbar-brand {
-  color: #1FA67A;
+  color: #ee7e02;
   font-size: 24px;
   margin: 8px 0;
 }
@@ -706,7 +705,7 @@ li.recentcomments {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #1FA67A;
+  background-color: #ee7e02;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #999;
@@ -726,7 +725,7 @@ li.recentcomments {
 }
 .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
-  background-color: #1FA67A;
+  background-color: #ee7e02;
   color: #fff;
 }
 
@@ -842,7 +841,7 @@ p.logged-in-as {
 }
 #image-navigation .nav-previous a:hover,
 #image-navigation .nav-next a:hover{
-  background-color: #1FA67A;
+  background-color: #ee7e02;
   color: #fff;
 }
 #image-navigation .nav-previous,
@@ -1677,12 +1676,16 @@ p{
   text-align: center;
   text-transform: uppercase;
 }
-
+#menu-menu-e-sport{
+  float:none;
+}
 
 .pres-index h1{
   margin-bottom: 30px;
 }
 
-.pres-index p {
 
+
+#menu-item-2876, #menu-item-2871 {
+  float: right;
 }

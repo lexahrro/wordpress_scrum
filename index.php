@@ -11,6 +11,9 @@
  * @package dazzling
  */
 
+error_reporting( E_ALL | E_NOTICE );
+ini_set( 'display_errors', true );
+
 get_header(); ?>
         <div id="primary" class="content-area col-sm-12 col-md-12">
                 <?php masterslider(3); ?>
@@ -18,8 +21,8 @@ get_header(); ?>
                     <div class="pres-index">
                     <h1>Bienvenue au coeur de l'E-sport</h1>
                     <p>Bienvenue sur le site de l’IIM consacrée intégralement à l’e-sport sur League of Legends. L’IIM est une des premières écoles à créer un département dédié à l’e-sport dans ses locaux afin de développer et augmenter la notoriété de l’e-sport « universitaire ». Les joueurs sélectionnés pour représenter l’école ont été choisis à la suite de différente épreuves et entretiens, pour qu’ils répondent au mieux l’attente des coachs et de l’école.</p>
-                     </div>
                     <h1>Les différents événements à venir:</h1>
+                    </div>
                     <div class="col-md-6 col-xs-12 tournois">
                         <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
                         <h2>Tournoi de qualification pour le tournoi ESL 2017.</h2>
@@ -36,30 +39,59 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/dazzling/img/img1.jpg">
                         <h2>Tournoi qualificatif pour les championnats du monde de 2017.</h2>
                     </div>
-                <div class="col-md-12">
-                  <?php if ( have_posts() ) : ?>
 
-                            <?php /* Start the Loop */ ?>
-                            <?php while ( have_posts() ) : the_post(); ?>
+                    <?php
 
-                                    <?php
-                                            /* Include the Post-Format-specific template for the content.
-                                             * If you want to override this in a child theme, then include a file
-                                             * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                                             */
-                                            get_template_part( 'content', get_post_format() );
-                                    ?>
+                    $wp = query_posts(array(
+                        'post_type'	=> 'news',
+                        'meta_key' => 'position',
+                        'meta_value' => 'left'
+                    ));
+                    echo '<div class="col-md-6 coll">';
+                    if(have_posts()) : while(have_posts()) : the_post();
+                    echo '<div class="hovereffect1 imgmargin">';
+                    ?><a href="<?php the_permalink() ?>"><?php
+                        echo '<h2 class="captionmos">'; the_title();echo '</h2>';
+                        echo '<img src="'; echo get('image'); echo '" class="img-responsive" >';
+                        echo '<div class="overlay1"></div>';
+                        echo '</a>';
+                        echo '</div>';
+                        echo '</div>';
 
-                            <?php endwhile; ?>
 
-                            <?php dazzling_paging_nav(); ?>
 
-                    <?php else : ?>
 
-                            <?php get_template_part( 'content', 'none' ); ?>
 
-                    <?php endif; ?>  
-                </div>
+                        endwhile; endif;
+                        ?>
+
+
+
+                    <?php
+
+                    $wp = query_posts(array(
+                        'post_type'	=> 'news',
+                        'meta_key' => 'position',
+                        'meta_value' => 'right'
+                    ));
+                    echo '<div class="col-md-6 colr">';
+                    if(have_posts()) : while(have_posts()) : the_post();
+                    echo '<div class="hovereffect1 imgmargin">';
+                    ?><a href="<?php the_permalink() ?>"><?php
+                        echo '<h2 class="captionmos">'; the_title();echo '</h2>';
+                        echo '<img src="'; echo get('image'); echo '" class="img-responsive" >';
+                        echo '<div class="overlay1"></div>';
+                        echo '</a>';
+                        echo '</div>';
+
+
+
+
+
+                        endwhile; endif;
+                        ?>
+
+
                 
 
                 </main><!-- #main -->
